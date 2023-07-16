@@ -1,0 +1,268 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    margin-top: -16px;
+    margin:0;
+    padding:0;
+}
+.maison{
+    background-color: black;
+    color:#fff;
+    margin-top: -16px;
+    margin:0;
+    padding:0;
+ height:50px;
+    display: flex;
+    width:100%;
+    position:fixed;
+    justify-content: space-between;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.maison ul.one{
+    list-style: none;
+    display:flex;
+    padding-left: 0;
+    margin-top: 0px;
+}
+.maison button{
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    font-size: medium;
+    text-transform: uppercase;
+}
+.last i{
+    color:#fff;
+}
+.text i{
+    color:#ccc;
+}
+.maison .last:hover ul.two{
+    display:block;
+}
+.maison button:hover{
+    background-color: #ccc!important;
+}
+button:hover li a{
+    color:black;
+}
+.maison button:hover li i{
+    color:black;
+}
+ul.two{
+    list-style: none;
+    background-color: #fff;
+    color:black;
+    width:120px;
+    margin-left: 2px;
+    margin-top: 0px;
+    display:none;
+}
+ul.two li:hover{
+    background-color: #ccc;
+}
+ul.two li{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: -40px;
+    padding-left: 10px;
+    /* padding-right: 12px; */
+    font-size: 14px;
+}
+.page img{
+    width:100%;
+    height:510px;
+}
+.text{
+    text-align: center;
+    padding-top: 64px;
+}
+.band .text p:last-of-type{
+    text-align:justify;
+    padding:10px 50px; 
+}
+.names{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    padding-bottom: 32px;
+    padding-top: 32px;
+    padding-left: 200px;
+    text-align:center;
+}
+.names img{
+    width:100px;
+    border:solid transparent 1px;
+    border-radius: 5px;;
+}
+.tour{
+    background-color: black;
+    padding-bottom: 100px;
+}
+.tour .text{
+    color:white;
+}
+.text h2{
+    font-size: 42px;
+    font-weight: normal;
+}
+.bar{
+    background-color: #fff;
+margin-top: 35px;
+margin-right: 100px;
+    margin-left: 100px;
+}
+.september{
+    display:flex;
+    height:40px;
+}
+.bar p{
+    color:rgb(139, 139, 139);
+    padding-left: 20px;
+}
+hr{
+    color:#ccc;
+}
+.bar button{
+    color: white;
+    margin-left: 20px;
+    width: 80px;
+    background-color: red;
+    height: 30px;
+    border: none;
+    margin-top: 10px;
+} 
+.octobor{
+    display:flex;
+    height:40px;
+    margin-top:-10px;
+}
+.november{
+    display:flex;
+    justify-content: space-between;
+    height:40px;
+    margin-top:-10px;
+    padding-bottom: 10px;
+}
+.november button{
+background-color: black;
+margin-right: 25px;
+width: 30px;
+border-radius: 35px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    background-color: #fff;
+    margin-top: 35px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.gallery img{
+    width:249px;
+}
+.gallery img:hover{
+    opacity:0.6;
+}
+.gallery .first{
+    border-right:solid black 20px;
+}
+.gallery .first .a{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.gallery button{
+    background-color: black;
+    width: 120px;
+    height: 50px;
+    color:white;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+.gallery button:hover{
+    color:black;
+    border:none;
+    background-color: #ccc;
+}
+.gallery p.p{
+    color:#ccc;
+}
+.contact .text{
+    text-align:center;
+} 
+.main{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.q{
+    display:flex;
+    margin-top: -35px;
+}
+.b{
+    display:flex;
+    margin-bottom:10px;
+}
+.q i{
+    padding-top: 19px;
+    padding-right:20px ;
+}
+.q p{
+    font-size: 19px;
+}
+form  button{
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    font-size: medium;
+    color:white;
+}
+form button:hover{
+background-color: #ccc;
+color:black;
+}
+form{
+    margin-top: -15px;
+}
+.b input{
+    width:150px;
+    height:35px;
+}
+input.n{
+    width:350px;
+    height:35px;
+}
+.button{
+    margin-left: 258px;
+    padding-top: 10px;
+}
+.i{
+    margin-right: 40px;
+}
+footer{
+    color: #000!important;
+    background-color: #f1f1f1!important;
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+}
+footer i{
+    color:rgb(100, 100, 100);
+    font-size: 24px;
+}
+footer i:hover{
+    color:#ccc;
+}
+.is{
+    padding-left: 16px;
+    padding-right:16px;
+    text-align: center;
+}
+.contact img{
+    margin-top: 100px;
+}
